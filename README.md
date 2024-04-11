@@ -29,4 +29,46 @@ deactivate
 pip3 freeze
 ```
 
+## agregar todos las dependencias a requirements.txt
+
+```sh
+pip3 freeze >requeriments.txt
+```
+## instalar todas las depencias de requirements
+
+```sh
+pip3 install -r requirements.txt
+```
+
+# App Proyect
+
+```sh
+git clone
+cd app
+python3 -m venv env
+source env/bin/activate
+pip3 inst
+all -r requirements.txt
+python3 main.py
+
+```
+# Comandos para FastApi
+
+```sh
+pip3 install fastapi
+```
+
+## instalar uvicorn
+
+```sh
+pip3 install "uvicorn[standard]"
+```
+
+## lanzar el servidor
+
+```sh
+uvicorn main:app --reload
+```
+
+
 
