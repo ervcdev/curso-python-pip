@@ -70,5 +70,38 @@ pip3 install "uvicorn[standard]"
 uvicorn main:app --reload
 ```
 
+## Docker
+
+
+```sh
+docker-compose build
+```
+
+correr el docker que se creo
+```sh
+docker-compose up -d
+```
+ver el estado del contenedor
+```sh
+docker-compose ps
+```
+
+ingresar al contenedor creado
+```sh
+docker-compose exec app-csv bash
+
+```
+
+```sh
+
+```
+
+
+```sh
+
+```
+
+
+
 
 

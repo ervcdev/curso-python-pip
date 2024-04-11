@@ -1,0 +1,8 @@
+## como se va a iniciar y en donde se va a iniciar el contendor.
+services:
+  app-csv:
+    build: 
+      context: .
+      dockerfile: Dockerfile
+
+    ## toca encende el contenedor de docker
